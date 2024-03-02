@@ -1,7 +1,7 @@
 #include <math.h>
 
 int median_array(int array[], int n) {
-  if (n >= 1 || n % 2 != 0) {
+  if (n >= 1 && n % 2 != 0) {
     // Loop and bogosort
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < n - 1; j++) {
