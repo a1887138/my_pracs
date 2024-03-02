@@ -1,4 +1,4 @@
-int array_count(int array[], int n, int number) {
+int num_count(int array[], int n, int number) {
   if (n >= 1) {
     // Init
     int count = 0;

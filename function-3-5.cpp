@@ -1,4 +1,4 @@
-double sum_even(int array[], int n) {
+double sum_even(double array[], int n) {
   if (n >= 1) {
     // Init
     int sum = 0;

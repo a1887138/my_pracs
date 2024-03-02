@@ -5,10 +5,10 @@ extern int median_array(int array[], int n);
 
 int main() {
   // Init
-  int debug_array[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+  int debug_array[7] = {3,5,2,1,4,6,7};
 
   // Calculations and print result
-  std::cout << median_array(debug_array, 9) << std::endl;
+  std::cout << median_array(debug_array, 7) << std::endl;
 
   return 0;
 }
