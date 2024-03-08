@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void print_binary_string(std::string decimal_number) {
+void print_binary_str(std::string decimal_number) {
 
   int num;
   num = stoi(decimal_number);
