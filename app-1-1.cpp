@@ -2,10 +2,10 @@
 
 int main() {
 
-    double double_init = 1.3;
+    double double_init_bruv = 1.3;
     char char_letter_not_vehicle = 'W';
 
-    double* look_a_double = &double_init;
+    double* look_a_double = &double_init_bruv;
     char* look_a_char = &char_letter_not_vehicle;
 
 

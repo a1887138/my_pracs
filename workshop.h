@@ -12,6 +12,8 @@ void printArray(double* array, int n) {
         std::cout << array[i] << " ";
     }
 
+    std::cout << std::endl;
+
 
     return;
 }
