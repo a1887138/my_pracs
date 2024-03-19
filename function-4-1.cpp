@@ -36,14 +36,16 @@ int secondSmallestSum(int *numbers,int length) {
         for (int j = i; j < length; j++) {
             sub_array_total += numbers[j];
         }
-
-        if (sub_array_total < current_second_min && sub_array_total > current_min)
-        {
-            current_second_min = sub_array_total;
-        } else if (sub_array_total < current_min) {
+        
+        if (sub_array_total < current_min) {
             current_second_min = current_min;
             current_min = sub_array_total;
         }
+        else if (sub_array_total < current_second_min && sub_array_total > current_min)
+        {
+            current_second_min = sub_array_total;
+        }
+
         
     }
 
