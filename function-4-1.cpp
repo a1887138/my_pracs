@@ -26,8 +26,8 @@ void printNumbers(int *numbers,int length) {
 
 int secondSmallestSum(int *numbers,int length) {
 
-    int current_min = INT_MAX;
-    int current_second_min = INT_MAX;
+    int current_min = numbers[0];
+    int current_second_min = numbers[0];
     int sub_array_total;
 
     for (int i = 0; i < length; i++){
