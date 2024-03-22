@@ -22,6 +22,13 @@ PersonList deepCopyPersonList(PersonList pl) {
     deepCopy.numPeople = pl.numPeople;
     deepCopy.people = createPersonArray(pl.numPeople);
 
+    for (int i = 0; i < pl.numPeople; i++){
+
+        deepCopy.people[i].name = pl.people[i].name;
+        deepCopy.people[i].age = pl.people[i].age;
+
+    }
+
     return deepCopy;
 
 }
