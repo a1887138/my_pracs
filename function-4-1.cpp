@@ -38,6 +38,7 @@ int secondSmallestSum(int *numbers,int length) {
         for (int j = i; j < length; j++) {
             sub_array_total += numbers[j];
         }
+        //push_back into a vector<int>
         
         if (sub_array_total < current_min) {
             current_second_min = current_min;
